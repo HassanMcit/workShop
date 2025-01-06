@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-image: linear-gradient(#000000e8, #000000d8),
+    url("./assets/travel1.jpg");
+  @apply bg-center bg-cover bg-no-repeat h-screen;
+}
+
+.main-page {
+  height: calc(100vh - 94px);
+}

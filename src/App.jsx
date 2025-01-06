@@ -1,10 +1,8 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
-import Footer from "./Components/Footer/Footer";
 import Home from "./Components/Home/Home";
 import MainPage from "./Components/MainPage/MainPage";
-import Navbar from "./Components/Navbar/Navbar";
 import NotFound from "./Components/NotFound/NotFound";
 import Design from "./Components/Design/Design";
 

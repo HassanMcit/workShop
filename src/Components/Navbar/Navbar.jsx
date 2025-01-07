@@ -36,8 +36,8 @@ export default function Navbar() {
                </div>
             </div>
           <div className={` fixed z-50 md:static top-0 end-0 ${open ? 'translate-x-0' : 'translate-x-full md:translate-x-0'}  transition-transform duration-300 w-60 md:w-fit`}>
-            <button className='text-3xl block md:hidden absolute top-3 end-3 cursor-pointer' onClick={handleToggle}><i className="fa-solid fa-x"></i></button>
-            <ul className='bg-white/90 md:bg-transparent h-96 md:h-fit dark:md:text-white flex flex-col md:flex-row space-y-8 p-10 md:p-0  md:space-y-0 md:space-x-7 text-3xl'>
+            <button className='text-3xl block md:hidden absolute top-3 end-3 cursor-pointer dark:text-white' onClick={handleToggle}><i className="fa-solid fa-x"></i></button>
+            <ul className='bg-white/90 dark:bg-slate-700 md:bg-transparent h-96 md:h-fit dark:text-white flex flex-col md:flex-row space-y-8 p-10 md:p-0  md:space-y-0 md:space-x-7 text-3xl'>
                 <li><NavLink to="/home" className='block py-3'>Home</NavLink></li>
                 <li><NavLink to="/about" className='block py-3'>About</NavLink></li>
                 <li><NavLink to="/contact" className='block py-3'>Contact</NavLink></li>

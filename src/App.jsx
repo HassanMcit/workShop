@@ -1,4 +1,4 @@
-import { createBrowserRouter, createHashRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import About from "./Components/About/About";
 import Contact from "./Components/Contact/Contact";
 import Home from "./Components/Home/Home";
@@ -7,7 +7,7 @@ import NotFound from "./Components/NotFound/NotFound";
 import Design from "./Components/Design/Design";
 
 function App() {
-  const x = createHashRouter([
+  const x = createBrowserRouter([
     {
       path: "",
       element: <Design />,
@@ -24,6 +24,12 @@ function App() {
 
   return (
     <>
+      {/* <Navbar/>
+    <Home/>
+    <About/>
+    <Contact/>
+    <MainPage/>
+    <Footer/> */}
       <RouterProvider router={x} />
     </>
   );

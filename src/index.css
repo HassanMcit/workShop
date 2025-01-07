@@ -11,3 +11,7 @@ body {
 .main-page {
   height: calc(100vh - 94px);
 }
+
+.active {
+  @apply text-green-400 bg-white rounded-md w-fit px-3
+}

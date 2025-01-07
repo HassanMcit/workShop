@@ -20,7 +20,7 @@ export default function Navbar() {
     <>
       <nav className={`${darkMode && 'dark bg-slate-800'} bg-green-400`}>
         <div className=" container flex justify-between items-center relative">
-          <div className="bg-orange-400 flex justify-between ">
+          <div className="flex justify-between ">
             <div className='w-28'>
                 <NavLink to="" className='block'>
                     <img src={logo} alt="Logo" className='w-full' />

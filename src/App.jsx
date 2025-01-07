@@ -24,12 +24,6 @@ function App() {
 
   return (
     <>
-      {/* <Navbar/>
-    <Home/>
-    <About/>
-    <Contact/>
-    <MainPage/>
-    <Footer/> */}
       <RouterProvider router={x} />
     </>
   );
